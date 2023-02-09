@@ -46,7 +46,6 @@ public class AirTravel {
 
     public void addNewCompany () {
         String SQL = "INSERT INTO company (company_name) VALUES (?);";
-        Company company = new Company();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите название компании, которую хотите добавить:");
         String name = scanner.nextLine();
